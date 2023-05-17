@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300&display=swap');
+
 * {
     padding:0;
     margin: 0;
@@ -22,12 +24,38 @@ body {
     grid-area: side-bar;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    
 }
 
 .page-title{
     padding-top: 2rem;
+    padding-left: 3rem;
     padding-bottom: 3rem;
+    font-family: 'Karla', sans-serif;
+    font-size: 40px;
+}
+
+.page-icon {
+    width: 50px;
+    height: 50px;
+}
+
+.side-icon {
+    padding-right: 5px;
+}
+
+.side-button{
+    padding: 10px;
+    padding-left: 3rem;
+    margin: 5px;
+    font-family: 'Karla', sans-serif;
+        font-size: 24px;
+}
+
+.side-bar-gap {
+    padding: 1rem;
+    margin: 5px;
+    font-size: 24px;
 }
 
 .header {
